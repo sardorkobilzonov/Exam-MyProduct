@@ -80,3 +80,64 @@
 #ddd {
   outline: none;
 }
+
+@media (max-width: 448px) {
+  .footer {
+    gap: 30px;
+    flex-wrap: wrap;
+    .links {
+      flex-wrap: wrap;
+    }
+    .recurce {
+      flex-wrap: wrap;
+    }
+    .deal {
+      flex-wrap: wrap;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .footer {
+    gap: 70px;
+    flex-wrap: wrap;
+    .links {
+      flex-wrap: wrap;
+    }
+    .recurce {
+      flex-wrap: wrap;
+    }
+    .deal {
+      flex-wrap: wrap;
+    }
+  }
+}
+@media (max-width: 986px) {
+  .footer {
+    gap: 100px;
+    flex-wrap: wrap;
+    .links {
+      flex-wrap: wrap;
+    }
+    .recurce {
+      flex-wrap: wrap;
+    }
+    .deal {
+      flex-wrap: wrap;
+    }
+  }
+}
+@media (max-width: 1240px) {
+  .footer {
+    gap: 160px;
+    flex-wrap: wrap;
+    .links {
+      flex-wrap: wrap;
+    }
+    .recurce {
+      flex-wrap: wrap;
+    }
+    .deal {
+      flex-wrap: wrap;
+    }
+  }
+}

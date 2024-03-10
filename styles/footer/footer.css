@@ -77,4 +77,65 @@
 
 #ddd {
   outline: none;
+}
+
+@media (max-width: 448px) {
+  .footer {
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  .footer .links {
+    flex-wrap: wrap;
+  }
+  .footer .recurce {
+    flex-wrap: wrap;
+  }
+  .footer .deal {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 768px) {
+  .footer {
+    gap: 70px;
+    flex-wrap: wrap;
+  }
+  .footer .links {
+    flex-wrap: wrap;
+  }
+  .footer .recurce {
+    flex-wrap: wrap;
+  }
+  .footer .deal {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 986px) {
+  .footer {
+    gap: 100px;
+    flex-wrap: wrap;
+  }
+  .footer .links {
+    flex-wrap: wrap;
+  }
+  .footer .recurce {
+    flex-wrap: wrap;
+  }
+  .footer .deal {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 1240px) {
+  .footer {
+    gap: 160px;
+    flex-wrap: wrap;
+  }
+  .footer .links {
+    flex-wrap: wrap;
+  }
+  .footer .recurce {
+    flex-wrap: wrap;
+  }
+  .footer .deal {
+    flex-wrap: wrap;
+  }
 }/*# sourceMappingURL=footer.css.map */

@@ -1,1 +1,80 @@
-/*# sourceMappingURL=footer.css.map */
+.footer {
+  padding-top: 160px;
+  display: flex;
+  gap: 160px;
+}
+.footer .links .footer__h1 {
+  cursor: pointer;
+  color: #fff;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.footer .links .media {
+  padding-top: 24px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.footer .recurce {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer .recurce .menu__h4 {
+  font-size: 20px;
+  line-height: 30px;
+  text-align: left;
+  color: #fff;
+}
+.footer .recurce p {
+  font-size: 16px;
+  color: #fff;
+}
+.footer .deal .the-best__text {
+  max-width: 275px;
+  width: 100%;
+}
+.footer .deal .the-best__text p {
+  color: #fff;
+  font-size: 20px;
+}
+.footer .deal .form {
+  padding-top: 35px;
+}
+.footer .deal .form .input {
+  max-width: 325px;
+  width: 100%;
+  height: 48px;
+  border: none;
+  border-radius: 3px;
+}
+.footer .deal .footer__btn {
+  padding-top: 21px;
+}
+.footer .deal .footer__btn .sign-up__btn {
+  max-width: 131px;
+  width: 100%;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+  background-color: #02897a;
+  border: 1px solid #02897a;
+  border: none;
+  border-radius: 5px;
+}
+
+.made {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+}
+
+#ddd {
+  outline: none;
+}/*# sourceMappingURL=footer.css.map */

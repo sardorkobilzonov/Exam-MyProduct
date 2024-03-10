@@ -3,6 +3,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-bottom: 50px;
 }
 nav h1 {
   cursor: pointer;
@@ -36,6 +37,7 @@ nav .nav__btn {
   color: #fff;
   border-radius: 5px;
   font-size: 16px;
+  cursor: pointer;
 }
 nav .nav__btn1 {
   width: 102px;
@@ -45,13 +47,14 @@ nav .nav__btn1 {
   color: #fff;
   border-radius: 5px;
   font-size: 16px;
+  cursor: pointer;
 }
 
 .nav__menu {
   display: none;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 950px) {
   nav ul {
     display: none;
   }
